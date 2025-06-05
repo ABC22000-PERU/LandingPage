@@ -1,0 +1,27 @@
+{
+  "title": "Servicios Destacados",
+  "text": "Soluciones integrales de alimentación corporativa, pensadas para cada necesidad:",
+  "mainImage": "servicios.svg",
+  "section": [
+    {
+      "icon": "almuerzo.svg",
+      "title": "Almuerzos Corporativos",
+      "content": "Menús diarios balanceados y empaques individuales para tu equipo."
+    },
+    {
+      "icon": "desayuno.svg",
+      "title": "Desayunos Saludables",
+      "content": "Opciones frescas y nutritivas para iniciar la jornada con energía."
+    },
+    {
+      "icon": "buffet.svg",
+      "title": "Buffets y Eventos",
+      "content": "Menús personalizados para capacitaciones, seminarios y celebraciones."
+    },
+    {
+      "icon": "in-situ.svg",
+      "title": "Servicio In Situ",
+      "content": "Instalación y operación de cocinas en tus instalaciones con chefs capacitados."
+    }
+  ]
+}
