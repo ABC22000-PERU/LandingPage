@@ -1,15 +1,15 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Nuestra propuesta de valor",
+  "text": "En ABC 22000 combinamos calidad, inocuidad y logística para que cada comida corporativa llegue a tiempo y con los más altos estándares.",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "Misión",
+      "content": "Producir y distribuir alimentos de alta calidad, seguros y nutritivos, comprometidos con el bienestar de nuestros consumidores, la innovación constante y la sostenibilidad, contribuyendo al desarrollo de una alimentación saludable y accesible para todos.",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": "Visión",
+      "content": "Ser una empresa líder en la industria alimentaria, reconocida por la excelencia en calidad, innovación y compromiso con la salud y el medio ambiente, mejorando la vida de nuestros consumidores y generando un impacto positivo en la sociedad.",
       "icon": "notes.svg"
     }
   ]

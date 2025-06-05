@@ -15,7 +15,7 @@ export const MiddleBlockSection = styled("section")`
 export const Title = styled("h2")`
   font-size: 2.5rem;
   font-weight: 600;
-  color: #1c4a2c; /* Verde oscuro */
+  color: #1c4a2c; 
   margin-bottom: 1.5rem;
   
   @media screen and (max-width: 768px) {
