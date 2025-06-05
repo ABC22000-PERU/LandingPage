@@ -1,6 +1,12 @@
 {
-    "title": "Introduce your product quickly & effectively",
-    "text": "Landy comes with multi-lingual support, all of the content is stored in the JSON files, so that you can manage the texts without having any prior knowledge in developing web applications using React.js.",
-    "button": "Get started"
+    "title": "¿Por qué ABC 22000?",
+    "text": "Desde 2014, ofrecemos soluciones de alimentación corporativa con procesos rápidos y seguros:",
+    "list": [
+        "✅ Menús personalizados y balanceados",
+        "✅ Alimentos frescos y de calidad",
+        "✅ Cumplimiento de normas de seguridad alimentaria",
+        "✅ Atención al cliente excepcional"
+    ],
+    "button": "Conocer más"
   }
   

@@ -21,12 +21,13 @@ const Home = () => {
         title={IntroContent.title}
         content={IntroContent.text}
         button={IntroContent.button}
-        icon="developer.svg"
+        icon="catering.svg"
         id="intro"
       />
       <MiddleBlock
         title={MiddleBlockContent.title}
         content={MiddleBlockContent.text}
+        list={MiddleBlockContent.list}
         button={MiddleBlockContent.button}
       />
       <ContentBlock
