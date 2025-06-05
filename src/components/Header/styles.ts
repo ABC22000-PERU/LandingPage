@@ -34,15 +34,15 @@ export const CustomNavLink = styled("div")`
 `;
 
 export const Burger = styled("div")`
-  @media only screen and (max-width: 890px) {
-    display: block;
-  }
+    @media only screen and (max-width: 890px) {
+        display: block;
+    }
 
-  display: none;
+    display: none;
 
-  svg {
-    fill: #2e186a;
-  }
+    svg {
+        fill: #155439;
+    }
 `;
 
 export const NotHidden = styled("div")`
@@ -58,23 +58,23 @@ export const Menu = styled("h5")`
 `;
 
 export const CustomNavLinkSmall = styled(NavLink)`
-  font-size: 1.2rem;
-  color: #18216d;
-  transition: color 0.2s ease-in;
-  margin: 0.5rem 2rem;
+    font-size: 1.2rem;
+    color: #155439;
+    transition: color 0.2s ease-in;
+    margin: 0.5rem 2rem;
 
-  @media only screen and (max-width: 768px) {
-    margin: 1.25rem 2rem;
-  }
+    @media only screen and (max-width: 768px) {
+        margin: 1.25rem 2rem;
+    }
 `;
 
 export const Label = styled("span")`
-  font-weight: 500;
-  color: #404041;
-  text-align: right;
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
+    font-weight: 500;
+    color: #155439;
+    text-align: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 `;
 
 export const Outline = styled(MenuOutlined)`
@@ -82,14 +82,29 @@ export const Outline = styled(MenuOutlined)`
 `;
 
 export const Span = styled("span")`
-  cursor: pointer;
-  transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
 
-  &:hover,
-  &:active,
-  &:focus {
-    color: rgb(255, 130, 92);
-    text-underline-position: under;
-    text-decoration: rgb(255, 130, 92) wavy underline;
-  }
+    &:hover,
+    &:active,
+    &:focus {
+        color: rgb(51, 248, 67);
+        text-underline-position: under;
+        text-decoration: rgb(51, 248, 67) wavy underline;
+    }
+`;
+
+export const Button = styled.button`
+    background: #155439;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+
+    &:hover {
+        background: #116819;
+        color: #fff;
+    }
 `;

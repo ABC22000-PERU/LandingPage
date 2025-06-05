@@ -3,7 +3,7 @@ import { Row, Col, Drawer } from "antd";
 import { withTranslation, TFunction } from "react-i18next";
 import Container from "../../common/Container";
 import { SvgIcon } from "../../common/SvgIcon";
-import { Button } from "../../common/Button";
+//import { Button } from "../../common/Button";
 import {
   HeaderSection,
   LogoContainer,
@@ -14,6 +14,7 @@ import {
   Label,
   Outline,
   Span,
+  Button,
 } from "./styles";
 
 const Header = ({ t }: { t: TFunction }) => {
@@ -59,7 +60,7 @@ const Header = ({ t }: { t: TFunction }) => {
       <Container>
         <Row justify="space-between">
           <LogoContainer to="/" aria-label="homepage">
-            <SvgIcon src="logo.svg" width="101px" height="64px" />
+            <SvgIcon src="logo.svg" width="180px" height="70px" />
           </LogoContainer>
           <NotHidden>
             <MenuItem />

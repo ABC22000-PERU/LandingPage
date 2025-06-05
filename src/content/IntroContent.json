@@ -1,12 +1,12 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "CATERING ABC 22000 S.A.C.",
+  "text": "Más de 10 años brindando servicios de alimentación institucional con los más altos estándares de inocuidad y nutrición.",
   "button": [
     {
-      "title": "Explore"
+      "title": "Cotizar ahora"
     },
     {
-      "title": "Learn more",
+      "title": "Saber más",
       "color": "#fff"
     }
   ]
