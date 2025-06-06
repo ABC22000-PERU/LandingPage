@@ -1,0 +1,27 @@
+<!-- Guarda este bloque como iso-22000.svg -->
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="200" height="200"
+     viewBox="0 0 200 200">
+
+    <g fill="#012B0D">
+        <path d="M100,10 C55.8,10 20,45.8 20,90 C20,134.2 55.8,170 100,170 C144.2,170 180,134.2 180,90 C180,45.8 144.2,10 100,10 Z M100,150 C70.7,150 50,129.3 50,100 C50,70.7 70.7,50 100,50 C129.3,50 150,70.7 150,100 C150,129.3 129.3,150 100,150 Z"/>
+    </g>
+    <text x="100" y="90"
+          text-anchor="middle"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="48"
+          font-weight="bold"
+          fill="#0E4A2B">
+        ISO
+    </text>
+
+
+    <text x="100" y="130"
+          text-anchor="middle"
+          font-family="Arial, Helvetica, sans-serif"
+          font-size="36"
+          font-weight="bold"
+          fill="#0E4A2B">
+        22000
+    </text>
+</svg>
