@@ -98,6 +98,9 @@ const Footer = ({ t }: { t: TFunction }) => {
                 />
               </LogoContainer>
             </NavLink>
+            <Para style={{ marginLeft: "auto" }}>
+              © {new Date().getFullYear()} ABC 22000. Todos los derechos reservados.
+            </Para>
             {/*
             <FooterContainer>
               <SocialLink
