@@ -2,7 +2,6 @@ import React from "react";
 import { Row, Col } from "antd";
 import { withTranslation, WithTranslation } from "react-i18next";
 import { Slide } from "react-awesome-reveal";
-import { Button } from "../../common/Button";
 import {
   MiddleBlockSection,
   Title,
@@ -14,7 +13,6 @@ import {
 interface MiddleBlockProps {
   title: string;
   content: string;
-  button: string;
   list?: string[];
 }
 
@@ -23,7 +21,6 @@ type MiddleBlockPropsWithI18n = MiddleBlockProps & WithTranslation;
 const MiddleBlock: React.FC<MiddleBlockPropsWithI18n> = ({
                                                            title,
                                                            content,
-                                                           button,
                                                            list,
                                                            t,
                                                          }) => {
@@ -47,14 +44,6 @@ const MiddleBlock: React.FC<MiddleBlockPropsWithI18n> = ({
                           <li key={idx}>{item}</li>
                       ))}
                     </StyledList>
-                )}
-
-                {button && (
-                    <div className="button-wrapper">
-                      <Button name="submit" onClick={() => scrollTo("mission")}>
-                        {t(button)}
-                      </Button>
-                    </div>
                 )}
               </Col>
             </ContentWrapper>

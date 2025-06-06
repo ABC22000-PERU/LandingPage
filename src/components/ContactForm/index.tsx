@@ -8,7 +8,7 @@ import { Button } from "../../common/Button";
 import Block from "../Block";
 import Input from "../../common/Input";
 import TextArea from "../../common/TextArea";
-import { ContactContainer, FormGroup, Span, ButtonContainer } from "./styles";
+import {ContactContainer, FormGroup, Span, ButtonContainer/*, WhatsappButton*/} from "./styles";
 
 const Contact = ({ title, content, id, t }: ContactProps) => {
   const { values, errors, handleChange, handleSubmit } = useForm(validate);
@@ -60,7 +60,16 @@ const Contact = ({ title, content, id, t }: ContactProps) => {
               </Col>
               <ButtonContainer>
                 <Button name="submit">{t("Enviar")}</Button>
+                {/*
+                <WhatsappButton
+                href={'https://wa.me/51934135883'}
+                target="_blank"
+                rel="noopener noreferrer"
+                >{t("Hablemos por WhatsApp")}
+                </WhatsappButton>
+                */}
               </ButtonContainer>
+
             </FormGroup>
           </Slide>
         </Col>

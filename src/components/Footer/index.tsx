@@ -3,10 +3,10 @@ import { withTranslation, TFunction } from "react-i18next";
 import { SvgIcon } from "../../common/SvgIcon";
 import Container from "../../common/Container";
 
-import i18n from "i18next";
+/*import i18n from "i18next";*/
 import {
   FooterSection,
-  Title,
+  /*Title,*/
   NavLink,
   Extra,
   LogoContainer,
@@ -14,22 +14,24 @@ import {
   Large,
   Chat,
   Empty,
-  FooterContainer,
+  /*FooterContainer,*/
   Language,
-  Label,
+  /*Label,
   LanguageSwitch,
-  LanguageSwitchContainer,
+  LanguageSwitchContainer,*/
 } from "./styles";
-
+/*
 interface SocialLinkProps {
   href: string;
   src: string;
 }
-
+*/
 const Footer = ({ t }: { t: TFunction }) => {
+  /*
   const handleChange = (language: string) => {
     i18n.changeLanguage(language);
   };
+
 
   const SocialLink = ({ href, src }: SocialLinkProps) => {
     return (
@@ -45,25 +47,22 @@ const Footer = ({ t }: { t: TFunction }) => {
     );
   };
 
+  */
+
   return (
     <>
       <FooterSection>
         <Container>
           <Row justify="space-between">
             <Col lg={10} md={10} sm={12} xs={12}>
-              <Language>{t("Contact")}</Language>
-              <Large to="/">{t("Tell us everything")}</Large>
+              <Language>{t("Contactanos")}</Language>
+              <Large to="/">{t("Comencemos a trabajar juntos")}</Large>
               <Para>
-                {t(`Do you have any question? Feel free to reach out.`)}
+                {t(`¿Tienes alguna duda? Puedes contactarme por correo electrónico.`)}
               </Para>
-              <a href="mailto:l.qqbadze@gmail.com">
-                <Chat>{t(`Let's Chat`)}</Chat>
+              <a href="mailto:abc22000@yahoo.com">
+                <Chat>{t(`Conversemos`)}</Chat>
               </a>
-            </Col>
-            <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Policy")}</Title>
-              <Large to="/">{t("Application Security")}</Large>
-              <Large to="/">{t("Software Principles")}</Large>
             </Col>
             <Col lg={6} md={6} sm={12} xs={12}>
               <Empty />
@@ -75,37 +74,9 @@ const Footer = ({ t }: { t: TFunction }) => {
             <Col lg={10} md={10} sm={12} xs={12}>
               <Empty />
               <Language>{t("Address")}</Language>
-              <Para>Rancho Santa Margarita</Para>
-              <Para>2131 Elk Street</Para>
-              <Para>California</Para>
-            </Col>
-            <Col lg={8} md={8} sm={12} xs={12}>
-              <Title>{t("Company")}</Title>
-              <Large to="/">{t("About")}</Large>
-              <Large to="/">{t("Blog")}</Large>
-              <Large to="/">{t("Press")}</Large>
-              <Large to="/">{t("Careers & Culture")}</Large>
-            </Col>
-            <Col lg={6} md={6} sm={12} xs={12}>
-              <Label htmlFor="select-lang">{t("Language")}</Label>
-              <LanguageSwitchContainer>
-                <LanguageSwitch onClick={() => handleChange("en")}>
-                  <SvgIcon
-                    src="united-states.svg"
-                    aria-label="homepage"
-                    width="30px"
-                    height="30px"
-                  />
-                </LanguageSwitch>
-                <LanguageSwitch onClick={() => handleChange("es")}>
-                  <SvgIcon
-                    src="spain.svg"
-                    aria-label="homepage"
-                    width="30px"
-                    height="30px"
-                  />
-                </LanguageSwitch>
-              </LanguageSwitchContainer>
+              <Para>Calle las Granadas</Para>
+              <Para>Mza. K1 Lote 1A Urb. La Alborada</Para>
+              <Para>Comas – Lima Perú</Para>
             </Col>
           </Row>
         </Container>
@@ -127,6 +98,7 @@ const Footer = ({ t }: { t: TFunction }) => {
                 />
               </LogoContainer>
             </NavLink>
+            {/*
             <FooterContainer>
               <SocialLink
                 href="https://github.com/Adrinlol/create-react-app-adrinlol"
@@ -157,6 +129,7 @@ const Footer = ({ t }: { t: TFunction }) => {
                 />
               </a>
             </FooterContainer>
+            */}
           </Row>
         </Container>
       </Extra>

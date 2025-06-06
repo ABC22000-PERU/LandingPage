@@ -1,4 +1,16 @@
 {
-  "title": "That's about it!",
-  "text": "If you are familiar with React, or SPA frameworks in general, there shouldn't be any confusing parts about this template. if not, you can always reach out to me and I'll try me best to answer your questions."
+  "title": "Nuestros Clientes",
+  "text": "Desde 2014 brindamos servicios de alimentación a diversos sectores como hospitales, empresas, clínicas especializadas y colegios, siempre garantizando calidad e inocuidad.",
+  "section": [
+    {
+      "title": "",
+      "content": "",
+      "icon": "iso-22000.svg"
+    },
+    {
+      "title": "",
+      "content": "",
+      "icon": "haccp.svg"
+    }
+  ]
 }

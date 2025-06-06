@@ -27,10 +27,36 @@ export const Span = styled("span")`
 `;
 
 export const ButtonContainer = styled("div")`
-  text-align: end;
-  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;       /* espacio entre botones */
+  margin-top: 1rem; /* separador respecto a los campos */
 
   @media only screen and (max-width: 414px) {
-    padding-top: 0.75rem;
+    flex-direction: column;
+    align-items: stretch;
+  }
+`;
+
+
+export const WhatsappButton = styled("a")`
+  display: inline-block;
+  background-color: #25D366;   /* color característico de WhatsApp */
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  text-decoration: none;
+  text-align: center;
+  transition: background-color 0.2s ease-in-out;
+
+  &:hover,
+  &:focus {
+    background-color: #1DA851;
+  }
+
+  @media only screen and (max-width: 414px) {
+    width: 100%; /* a pantalla muy chica, que ocupe todo el ancho */
   }
 `;

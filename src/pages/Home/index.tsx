@@ -29,7 +29,6 @@ const Home = () => {
         title={MiddleBlockContent.title}
         content={MiddleBlockContent.text}
         list={MiddleBlockContent.list}
-        button={MiddleBlockContent.button}
       />
       <ContentBlock
         direction="left"
@@ -50,8 +49,9 @@ const Home = () => {
         direction="left"
         title={ProductContent.title}
         content={ProductContent.text}
-        icon="waving.svg"
-        id="product"
+        section={ProductContent.section}
+        icon="clients.svg"
+        id="clients"
       />
       <Contact
         title={ContactContent.title}
