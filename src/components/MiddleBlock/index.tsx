@@ -24,10 +24,10 @@ const MiddleBlock: React.FC<MiddleBlockPropsWithI18n> = ({
                                                            list,
                                                            t,
                                                          }) => {
-  const scrollTo = (id: string) => {
+    /*const scrollTo = (id: string) => {
     const element = document.getElementById(id) as HTMLDivElement;
     element.scrollIntoView({ behavior: "smooth" });
-  };
+  };*/
 
   return (
       <MiddleBlockSection>
